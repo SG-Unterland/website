@@ -22,5 +22,6 @@
         "editor.formatOnSave": true,
         "[vue]": {
             "editor.defaultFormatter": "Vue.volar"
-          },
+        },
+        "i18n-ally.keystyle": "nested",
 }
