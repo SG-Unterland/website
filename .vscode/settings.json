@@ -17,6 +17,6 @@
         "ui"
         ],
         "i18n-ally.localesPaths": [
-            "locale"
+            "locales"
         ]
 }
