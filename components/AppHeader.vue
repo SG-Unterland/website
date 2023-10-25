@@ -8,13 +8,11 @@
                         <NuxtImg src="/logo.png" width="20" height="20" class="mr-2" />
                         <NuxtLink to="/" class="text-primary">{{ t('clubName') }}</NuxtLink>
                     </div>
-                </div>
-                <div class="md:flex items-center space-x-1">
-                    <ul>
-                        <li>
-                            <NuxtLink class="py-4 px-2" to="/" active-class="text-primary">{{ t('home') }}</NuxtLink>
-                        </li>
-                    </ul>
+                    <div class="md:flex items-center space-x-1 text-black" v-for="navItem in navItems" :key="navItem.id">
+                        <NuxtLink class="py-4 px-2" :to="navItem.path" active-class="text-primary">{{
+                            t(navItem.id) }}
+                        </NuxtLink>
+                    </div>
                 </div>
             </div>
         </div>
@@ -25,4 +23,18 @@
 const { t } = useI18n({
     useScope: 'local'
 })
+const navItems = [
+    {
+        path: '/',
+        id: 'home'
+    },
+    {
+        path: '/about',
+        id: 'about'
+    },
+    {
+        path: '/contact',
+        id: 'contact'
+    }
+]
 </script>

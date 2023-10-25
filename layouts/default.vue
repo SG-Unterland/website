@@ -1,9 +1,13 @@
 <template>
-    <div>
-        <AppHeader />
-        <div class="ml-5 mr-5">
+    <div class="flex flex-col h-screen justify-between">
+        <div>
+            <AppHeader />
+        </div>
+        <div class="ml-5 mr-5 flex-grow">
             <slot />
         </div>
-        <AppFooter />
+        <div>
+            <AppFooter />
+        </div>
     </div>
 </template>
