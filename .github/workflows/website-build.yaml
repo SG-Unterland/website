@@ -27,10 +27,10 @@ jobs:
         with:
           submodules: 'recursive'
 
-      - name: Setup Node
-        uses: actions/setup-node@v3
+      - name: Setup pnpm env
+        uses: pnpm/action-setup@v2.2.4
         with:
-          node-version: v16.x
+          version: 7
 
       - name: Build Node assets
         env:
