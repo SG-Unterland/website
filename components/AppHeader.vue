@@ -6,8 +6,6 @@
         </template>
 
         <template #right>
-            <UDocsSearchButton :label="null" />
-
             <UColorModeButton />
         </template>
 

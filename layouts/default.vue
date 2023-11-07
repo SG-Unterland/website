@@ -11,3 +11,9 @@
         </div>
     </div>
 </template>
+
+<script setup lang="ts">
+const route = useRoute()
+const { t } = useI18n()
+
+</script>
