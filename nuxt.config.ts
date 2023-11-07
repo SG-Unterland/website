@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
-  modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt"],
+  modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt", "@nuxt/content"],
   i18n: {
     lazy: true,
     defaultLocale: "en",
