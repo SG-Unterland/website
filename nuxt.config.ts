@@ -14,4 +14,7 @@ export default defineNuxtConfig({
     ],
     vueI18n: "./i18n.config.ts",
   },
+  ui: {
+    icons: ['heroicons', 'mdi']
+  }
 })
