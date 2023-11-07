@@ -7,8 +7,10 @@ name: "Deploy Now: Orchestration"
 run-name: "Deploy Now: Build website · ${{ github.event.head_commit.message || format('Triggered by {0}', github.triggering_actor) }}"
 
 on:
-  - push
-  - workflow_dispatch
+  push:
+      branches:
+        - main
+  workflow_dispatch:
 
 jobs:
   retrieve-project:
