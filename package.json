@@ -1,6 +1,13 @@
 {
-  "name": "nuxt-app",
+  "name": "sgu-website",
+  "description": "Website for SG Unterland",
   "private": true,
+  "author": {
+    "name": "SG Unterland"
+  },
+  "contributors": [
+    { "name": "miggi92", "url": "https://github.com/miggi92"}
+  ],
   "type": "module",
   "scripts": {
     "build": "nuxt build",
