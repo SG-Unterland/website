@@ -19,9 +19,7 @@
 import type { NavItem } from '@nuxt/content/dist/runtime/types'
 const navigation = inject<Ref<NavItem[]>>('navigation')
 
-const { t } = useI18n({
-    useScope: 'local'
-})
+const { t } = useI18n()
 const links = [
     {
         to: '/',
