@@ -29,7 +29,6 @@ jobs:
           project-id: 84d7748b-0c83-4b22-b693-c3ba4d016c48
           action: retrieve-info
 
-
   build:
     name: build
     needs: retrieve-project
