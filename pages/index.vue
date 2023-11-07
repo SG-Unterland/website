@@ -1,6 +1,5 @@
 <template>
-    <ULandingHero :title="$t('pageInDevelopment')"
-        description="Diese Seite wird aktuell noch entwickelt. Daher können die Inhalte nicht vollständig sein oder Fehler auftreten." />
+    <ULandingHero :title="$t('pageInDevelopment')" :description="$t('pageInDevelopmentDescription')" />
 </template>
 
 <script setup lang="ts">
