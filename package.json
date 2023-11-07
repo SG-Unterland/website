@@ -1,6 +1,13 @@
 {
-  "name": "nuxt-app",
+  "name": "sgu-website",
+  "description": "Website for SG Unterland",
   "private": true,
+  "author": {
+    "name": "SG Unterland"
+  },
+  "contributors": [
+    { "name": "miggi92", "url": "https://github.com/miggi92"}
+  ],
   "type": "module",
   "scripts": {
     "build": "nuxt build",
@@ -10,12 +17,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@iconify-json/logos": "^1.1.37",
+    "@iconify-json/mdi": "^1.1.55",
     "@nuxt/devtools": "latest",
-    "nuxt": "^3.8.0",
-    "vue": "^3.3.7",
-    "vue-router": "^4.2.5",
+    "@nuxt/ui": "^2.10.0",
+    "@nuxt/ui-pro": "^0.4.2",
     "@nuxtjs/i18n": "8.0.0-rc.5",
-    "@nuxt/ui": "^2.9.0"
+    "nuxt": "^3.8.1",
+    "vue": "^3.3.7",
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
     "@nuxt/image": "^1.0.0"

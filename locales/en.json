@@ -3,5 +3,8 @@
   "home": "Home",
   "contact": "Contact",
   "about": "About",
-  "imprint": "Imprint"
+  "imprint": "Imprint",
+  "appDescription": "Website for the club SG Unterland",
+  "pageInDevelopment": "Page in development",
+  "pageInDevelopmentDescription": "This page is currently under development. Content may not be complete or may be incorrect."
 }
