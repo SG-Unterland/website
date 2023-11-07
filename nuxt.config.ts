@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
-  modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n"],
+  modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt"],
   i18n: {
     lazy: true,
     defaultLocale: "en",
@@ -16,5 +16,31 @@ export default defineNuxtConfig({
   },
   ui: {
     icons: ['heroicons', 'mdi', 'logos']
+  },
+  pwa: {
+    registerType: "autoUpdate",
+    manifest: {
+      name: "SG Unterland",
+      short_name: "SG U",
+      description: "SG Unterland",
+      theme_color: "#ffffff",
+      lang: "de",
+    },
+    meta: {
+      name: "SG Unterland",
+    },
+    workbox: {
+      navigateFallback: '/',
+      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+    },
+    client: {
+      installPrompt: true,
+    },
+    devOptions: {
+      enabled: true,
+      suppressWarnings: true,
+      navigateFallbackAllowlist: [/^\/$/],
+      type: 'module',
+    },
   }
 })
