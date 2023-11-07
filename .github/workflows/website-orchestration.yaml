@@ -28,9 +28,6 @@ jobs:
           service-host: api-eu.ionos.space
           project-id: 84d7748b-0c83-4b22-b693-c3ba4d016c48
           action: retrieve-info
-        env:
-          NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
-
 
   build:
     name: build
