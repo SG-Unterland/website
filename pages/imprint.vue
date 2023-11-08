@@ -1,7 +1,8 @@
 <template>
     <UPageHeader :title="t('imprint')" />
-
-    <ContentDoc path="/imprint" />
+    <div>
+        <ContentDoc path="/imprint" />
+    </div>
 </template>
 
 <script setup lang="ts">
