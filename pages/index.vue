@@ -1,5 +1,7 @@
 <template>
     <ULandingHero :title="$t('pageInDevelopment')" :description="$t('pageInDevelopmentDescription')" />
+
+    <ContentDoc path="/" />
 </template>
 
 <script setup lang="ts">
