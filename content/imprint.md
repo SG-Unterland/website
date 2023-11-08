@@ -1,3 +1,8 @@
+---
+title: "Impressum"
+description: "Impressum der Webseite der SG Unterland"
+---
+
 # Impressum
 
 ## Angaben gemäß § 5 TMG:
