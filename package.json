@@ -17,7 +17,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "generate-pwa-assets": "pwa-assets-generator --preset minimal public/logo.png"
   },
   "devDependencies": {
     "@iconify-json/logos": "^1.1.37",
@@ -26,6 +27,7 @@
     "@nuxt/ui": "^2.10.0",
     "@nuxt/ui-pro": "^0.4.2",
     "@nuxtjs/i18n": "8.0.0-rc.5",
+    "@vite-pwa/assets-generator": "^0.0.10",
     "@vite-pwa/nuxt": "^0.1.1",
     "nuxt": "^3.8.1",
     "vue": "^3.3.7",
