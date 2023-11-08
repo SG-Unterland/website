@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt", "@nuxt/content", "@nuxthq/studio"],
   i18n: {
     lazy: true,
-    defaultLocale: "en",
+    defaultLocale: "de",
     strategy: "no_prefix",
     langDir: "locales",
     locales: [
@@ -19,7 +19,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-     studioTokens: "" }
+     studioTokens: ""
+    }
   },
   pwa: {
     registerType: "autoUpdate",
