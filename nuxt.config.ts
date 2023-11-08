@@ -19,7 +19,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-     NUXT_PUBLIC_STUDIO_TOKENS: "70dcb9f8cf2cd6b8f1811e06e31732280d946ee9a95dd40dda9ba76f3bb51f1a" }
+     studioTokens: "70dcb9f8cf2cd6b8f1811e06e31732280d946ee9a95dd40dda9ba76f3bb51f1a" }
   },
   pwa: {
     registerType: "autoUpdate",
