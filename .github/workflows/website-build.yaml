@@ -16,6 +16,7 @@ on:
 env:
   DEPLOYMENT_FOLDER: dist
   NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
+  NUXT_PUBLIC_STUDIO_TOKENS: ${{ secrets.NUXT_PUBLIC_STUDIO_TOKENS }}
 
 
 jobs:
@@ -41,10 +42,7 @@ jobs:
         run: |
           pnpm install
           pnpm run build
-      - name: generate App
-        run: pnpm run generate
-        env:
-          NUXT_PUBLIC_STUDIO_TOKENS: ${{ secrets.NUXT_PUBLIC_STUDIO_TOKENS }}
+          pnpm run generate
 
 # Please do not touch the following action
       - name: Store deployment content
