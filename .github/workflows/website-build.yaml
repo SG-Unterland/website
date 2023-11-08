@@ -18,9 +18,8 @@ env:
   NUXT_UI_PRO_LICENSE: ${{ secrets.NUXT_UI_PRO_LICENSE }}
   NUXT_PUBLIC_STUDIO_TOKENS: ${{ secrets.NUXT_PUBLIC_STUDIO_TOKENS }}
 
-
 jobs:
-# Please do not rename this job
+  # Please do not rename this job
   build-project:
     name: build website
     runs-on: ubuntu-latest
@@ -28,7 +27,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          submodules: "recursive"
 
       - name: Setup pnpm env
         uses: pnpm/action-setup@v2.4.0
@@ -41,10 +40,11 @@ jobs:
           SITE_URL: ${{ inputs.site-url }}
         run: |
           pnpm install
+          pnpm run generate-pwa-assets
           pnpm run build
           pnpm run generate
 
-# Please do not touch the following action
+      # Please do not touch the following action
       - name: Store deployment content
         uses: ionos-deploy-now/artifact-action@v1
         with:
