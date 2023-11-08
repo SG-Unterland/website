@@ -3,6 +3,21 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
   modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt", "@nuxt/content", "@nuxthq/studio"],
+  content: {
+    api: {
+      baseURL: "/api/content"
+    },
+    highlight: {
+      theme: {
+        // Default theme (same as single string)
+        default: 'github-light',
+        // Theme used if `html.dark`
+        dark: 'github-dark',
+        // Theme used if `html.sepia`
+        sepia: 'monokai'
+      }
+    }
+  },
   i18n: {
     lazy: true,
     defaultLocale: "de",
