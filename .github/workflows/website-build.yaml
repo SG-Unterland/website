@@ -41,7 +41,10 @@ jobs:
         run: |
           pnpm install
           pnpm run build
-          pnpm run generate
+      - name: generate App
+        run: pnpm run generate
+        env:
+          NUXT_PUBLIC_STUDIO_TOKENS: ${{ secrets.NUXT_PUBLIC_STUDIO_TOKENS }}
 
 # Please do not touch the following action
       - name: Store deployment content
