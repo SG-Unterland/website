@@ -19,7 +19,8 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-     studioTokens: "" }
+     studioTokens: ""
+    }
   },
   pwa: {
     registerType: "autoUpdate",
