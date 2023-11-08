@@ -1,6 +1,6 @@
 <template>
     <main>
-        <ContentDoc />
+        <ContentDoc :path="$route.path" />
     </main>
 </template>
   
