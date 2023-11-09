@@ -26,6 +26,10 @@ const links = [
         label: t('home'),
     },
     {
+        to: '/news',
+        label: t('news')
+    },
+    {
         to: '/about',
         label: t('about')
     },
