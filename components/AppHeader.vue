@@ -10,6 +10,7 @@
         </template>
 
         <template #panel>
+           <UAsideLinks :links="links" />
             <UNavigationTree :links="mapContentNavigation(navigation)" />
         </template>
     </UHeader>
