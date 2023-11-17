@@ -11,15 +11,11 @@
 
         <template #panel>
            <UAsideLinks :links="links" />
-            <UNavigationTree :links="mapContentNavigation(navigation)" />
         </template>
     </UHeader>
 </template>
 
 <script setup lang="ts">
-import type { NavItem } from '@nuxt/content/dist/runtime/types'
-const navigation = inject<Ref<NavItem[]>>('navigation')
-
 const { t } = useI18n()
 const links = [
     {
