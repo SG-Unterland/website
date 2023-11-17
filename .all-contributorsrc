@@ -1,4 +1,21 @@
 {
   "projectName": "website",
-  "projectOwner": "SG-Unterland"
+  "projectOwner": "SG-Unterland",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "miggi92",
+      "name": "Miguel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/9019692?v=4",
+      "profile": "https://github.com/miggi92",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
 }
