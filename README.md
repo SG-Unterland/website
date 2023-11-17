@@ -12,6 +12,13 @@
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/miggi92"><img src="https://avatars.githubusercontent.com/u/9019692?v=4?s=100" width="100px;" alt="Miguel"/><br /><sub><b>Miguel</b></sub></a><br /><a href="#code-miggi92" title="Code">💻</a></td>
+    </tr>
+  </tbody>
+</table>
 
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
