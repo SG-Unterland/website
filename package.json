@@ -28,7 +28,7 @@
     "@nuxt/ui-pro": "^0.5.0",
     "@nuxtjs/i18n": "8.0.0-rc.6",
     "@vite-pwa/assets-generator": "^0.0.11",
-    "@vite-pwa/nuxt": "^0.3.0",
+    "@vite-pwa/nuxt": "^0.4.0",
     "nuxt": "^3.8.1",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
