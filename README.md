@@ -4,6 +4,8 @@
 
 > https://sg-unterland.de
 
+<img src="https://github.com/SG-Unterland/website/blob/main/public/logo.jpg" alt="SG Unterland Logo" width="300" >
+
 ![GitHub License](https://img.shields.io/github/license/SG-Unterland/website?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SG-Unterland/website?style=for-the-badge)
 
