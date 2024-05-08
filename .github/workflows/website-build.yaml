@@ -32,7 +32,7 @@ jobs:
       - name: Setup pnpm env
         uses: pnpm/action-setup@v4.0.0
         with:
-          version: 7
+          version: 8
 
       - name: Build Node assets
         env:
