@@ -69,12 +69,9 @@ export default defineNuxtConfig({
         purpose: 'maskable',
       }],
     },
-    meta: {
-      name: 'SG Unterland',
-    },
     workbox: {
       navigateFallback: '/',
-      globPatterns: ['**/*.{js,css,html,png,svg,ico}'],
+      globPatterns: ['**/*.{js,css,html,png,jpg,svg,ico}'],
     },
     client: {
       installPrompt: true,
