@@ -1,8 +1,8 @@
 {
-    "recommendations": [
-        "vue.volar",
-        "lokalise.i18n-ally",
-        "bradlc.vscode-tailwindcss",
-        "nuxt.mdc"
-    ]
+  "recommendations": [
+    "vue.volar",
+    "lokalise.i18n-ally",
+    "bradlc.vscode-tailwindcss",
+    "nuxt.mdc"
+  ]
 }

@@ -1,9 +1,3 @@
-<template>
-    <ULandingHero :title="$t('pageInDevelopment')" :description="$t('pageInDevelopmentDescription')" />
-
-    <ContentDoc path="/" />
-</template>
-
 <script setup lang="ts">
 const { t } = useI18n()
 
@@ -11,3 +5,9 @@ const { t } = useI18n()
 //     title: t('home'),
 // })
 </script>
+
+<template>
+  <ULandingHero :title="$t('pageInDevelopment')" :description="$t('pageInDevelopmentDescription')" />
+
+  <ContentDoc path="/" />
+</template>

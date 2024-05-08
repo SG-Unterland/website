@@ -1,7 +1,7 @@
 # To better understand this file read this:
 # https://docs.ionos.space/docs/github-actions-customization/
 
-name: "Deploy Now: Execute Build"
+name: 'Deploy Now: Execute Build'
 
 on:
   workflow_call:
@@ -27,7 +27,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v4
         with:
-          submodules: "recursive"
+          submodules: recursive
 
       - name: Setup pnpm env
         uses: pnpm/action-setup@v3.0.0

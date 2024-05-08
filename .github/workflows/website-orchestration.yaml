@@ -3,13 +3,13 @@
 # More information under https://docs.ionos.space/docs/github-actions-customization/
 # version: 2022-07-21
 
-name: "Deploy Now: Orchestration"
-run-name: "Deploy Now: Build website · ${{ github.event.head_commit.message || format('Triggered by {0}', github.triggering_actor) }}"
+name: 'Deploy Now: Orchestration'
+run-name: 'Deploy Now: Build website · ${{ github.event.head_commit.message || format(''Triggered by {0}'', github.triggering_actor) }}'
 
 on:
   push:
-      branches:
-        - main
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
