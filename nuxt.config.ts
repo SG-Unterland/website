@@ -2,10 +2,10 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
-  modules: ["@nuxt/ui", "@nuxt/image", "@nuxtjs/i18n", "@vite-pwa/nuxt", "@nuxt/content", "@nuxthq/studio"],
+  modules: ['@nuxt/ui', '@nuxt/image', '@nuxtjs/i18n', '@vite-pwa/nuxt', '@nuxt/content', '@nuxthq/studio'],
   content: {
     api: {
-      baseURL: "/api/content"
+      baseURL: '/api/content',
     },
     highlight: {
       theme: {
@@ -14,63 +14,63 @@ export default defineNuxtConfig({
         // Theme used if `html.dark`
         dark: 'github-dark',
         // Theme used if `html.sepia`
-        sepia: 'monokai'
-      }
-    }
+        sepia: 'monokai',
+      },
+    },
   },
   i18n: {
     lazy: true,
-    defaultLocale: "de",
-    strategy: "no_prefix",
-    langDir: "locales",
+    defaultLocale: 'de',
+    strategy: 'no_prefix',
+    langDir: 'locales',
     locales: [
-      { code: "de", iso: "de", file: "de.json" },
-      { code: "en", iso: "en", file: "en.json" },
+      { code: 'de', iso: 'de', file: 'de.json' },
+      { code: 'en', iso: 'en', file: 'en.json' },
     ],
-    vueI18n: "./i18n.config.ts",
+    vueI18n: './i18n.config.ts',
   },
   ui: {
-    icons: ['heroicons', 'mdi', 'logos']
+    icons: ['heroicons', 'mdi', 'logos'],
   },
   runtimeConfig: {
     public: {
-     studioTokens: ""
-    }
+      studioTokens: '',
+    },
   },
   pwa: {
-    registerType: "autoUpdate",
+    registerType: 'autoUpdate',
     manifest: {
-      name: "SG Unterland",
-      short_name: "SG U",
-      description: "SG Unterland",
-      theme_color: "#ffffff",
-      lang: "de",
+      name: 'SG Unterland',
+      short_name: 'SG U',
+      description: 'SG Unterland',
+      theme_color: '#ffffff',
+      lang: 'de',
       icons: [{
-        src: "pwa-64x64.png",
-        sizes: "64x64",
-        type: "image/png"
-      },{
-        src: "pwa-192x192.png",
-        sizes: "192x192",
-        type: "image/png"
-      },{
-        src: "pwa-512x512.png",
-        sizes: "512x512",
-        type: "image/png"
-      },{
-        src: "maskable-icon-512x512.png",
-        sizes: "512x512",
-        type: "image/png",
-        purpose: "maskable"
-      },{
-        src: "apple-touch-icon-180x180.png",
-        sizes: "180x180",
-        type: "image/png",
-        purpose: "maskable"
-      }]
+        src: 'pwa-64x64.png',
+        sizes: '64x64',
+        type: 'image/png',
+      }, {
+        src: 'pwa-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
+      }, {
+        src: 'pwa-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+      }, {
+        src: 'maskable-icon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'maskable',
+      }, {
+        src: 'apple-touch-icon-180x180.png',
+        sizes: '180x180',
+        type: 'image/png',
+        purpose: 'maskable',
+      }],
     },
     meta: {
-      name: "SG Unterland",
+      name: 'SG Unterland',
     },
     workbox: {
       navigateFallback: '/',
@@ -85,5 +85,5 @@ export default defineNuxtConfig({
       navigateFallbackAllowlist: [/^\/$/],
       type: 'module',
     },
-  }
+  },
 })
