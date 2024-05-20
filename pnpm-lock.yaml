@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.7.0
     version: 1.7.0(rollup@4.17.2)
   '@nuxthq/studio':
-    specifier: ^1.0.15
-    version: 1.0.15(rollup@4.17.2)
+    specifier: ^1.1.0
+    version: 1.1.0(rollup@4.17.2)
 
 devDependencies:
   '@antfu/eslint-config':
@@ -2365,7 +2365,7 @@ packages:
       knitwork: 1.1.0
       mlly: 1.7.0
       pathe: 1.1.2
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       scule: 1.3.0
       semver: 7.6.1
       ufo: 1.5.3
@@ -2385,7 +2385,7 @@ packages:
       defu: 6.1.4
       hookable: 5.5.3
       pathe: 1.1.2
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       scule: 1.3.0
       std-env: 3.7.0
       ufo: 1.5.3
@@ -2568,15 +2568,15 @@ packages:
       - vti
       - vue-tsc
 
-  /@nuxthq/studio@1.0.15(rollup@4.17.2):
-    resolution: {integrity: sha512-FdlSpNk+mCZrA1a3SiZIEm7JFx2pLUtAJfwPfGkllF6vTpCB6Jm1zTnRPw/i3dd20AZ5Ch/P9TOzE61km39NTA==}
+  /@nuxthq/studio@1.1.0(rollup@4.17.2):
+    resolution: {integrity: sha512-3Q2GW3jwAfRhwfhNAn8GMqDhaVkXsP/wOC4g6yqb6WD+RKvas9vMrr5TPhbzB3lclMb+mcNo68LU6hjyTfP3Ww==}
     dependencies:
       '@nuxt/kit': 3.11.2(rollup@4.17.2)
       defu: 6.1.4
       git-url-parse: 14.0.0
       nuxt-component-meta: 0.6.4(rollup@4.17.2)
       parse-git-config: 3.0.0
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       socket.io-client: 4.7.5
       ufo: 1.5.3
       untyped: 1.4.2
@@ -5025,7 +5025,7 @@ packages:
       ohash: 1.1.3
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       rc9: 2.1.2
 
   /cac@6.7.14:
@@ -8684,7 +8684,7 @@ packages:
     dependencies:
       acorn: 8.11.3
       pathe: 1.1.2
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       ufo: 1.5.3
 
   /mri@1.2.0:
@@ -9539,6 +9539,13 @@ packages:
 
   /pkg-types@1.1.0:
     resolution: {integrity: sha512-/RpmvKdxKf8uILTtoOhAgf30wYbP2Qw+L9p3Rvshx1JZVX+XQNZQFjlbmGHEGIm4CkVPlSn+NXmIM8+9oWQaSA==}
+    dependencies:
+      confbox: 0.1.7
+      mlly: 1.7.0
+      pathe: 1.1.2
+
+  /pkg-types@1.1.1:
+    resolution: {integrity: sha512-ko14TjmDuQJ14zsotODv7dBlwxKhUKQEhuhmbqo1uCi9BB0Z2alo/wAXg6q1dTR5TyuqYyWhjtfe/Tsh+X28jQ==}
     dependencies:
       confbox: 0.1.7
       mlly: 1.7.0
@@ -11480,7 +11487,7 @@ packages:
       magic-string: 0.30.10
       mlly: 1.7.0
       pathe: 1.1.2
-      pkg-types: 1.1.0
+      pkg-types: 1.1.1
       scule: 1.3.0
       strip-literal: 1.3.0
       unplugin: 1.10.1
