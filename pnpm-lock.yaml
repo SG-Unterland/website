@@ -41,8 +41,8 @@ devDependencies:
     specifier: ^0.2.4
     version: 0.2.4
   '@vite-pwa/nuxt':
-    specifier: ^0.7.0
-    version: 0.7.0(@vite-pwa/assets-generator@0.2.4)(rollup@4.17.2)(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0)
+    specifier: ^0.8.0
+    version: 0.8.0(@vite-pwa/assets-generator@0.2.4)(rollup@4.17.2)(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0)
   eslint:
     specifier: ^9.1.1
     version: 9.2.0
@@ -4113,8 +4113,8 @@ packages:
       unconfig: 0.3.13
     dev: true
 
-  /@vite-pwa/nuxt@0.7.0(@vite-pwa/assets-generator@0.2.4)(rollup@4.17.2)(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0):
-    resolution: {integrity: sha512-s4bNChQSlhIIRDZApxWaA4p10UnBDm+DP/mnNgncRaZeWxAg3wpikR8PY/c0ZwJ5H2GBS+k7CVUlKryZZ44DGg==}
+  /@vite-pwa/nuxt@0.8.0(@vite-pwa/assets-generator@0.2.4)(rollup@4.17.2)(vite@5.2.11)(workbox-build@7.1.0)(workbox-window@7.1.0):
+    resolution: {integrity: sha512-iQDBUZgi0iNAZOXcVt4lxSBn1hYG9KoOhM5VCi1RqltQYKHdY04fUnNFaTiACe5reRui03YLFU6zWmdJVM/a/A==}
     peerDependencies:
       '@vite-pwa/assets-generator': ^0.2.4
     peerDependenciesMeta:
