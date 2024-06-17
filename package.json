@@ -38,7 +38,7 @@
     "@vite-pwa/assets-generator": "^0.2.4",
     "@vite-pwa/nuxt": "^0.7.0",
     "eslint": "^9.1.1",
-    "nuxt": "^3.11.2",
+    "nuxt": "^3.12.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   }
