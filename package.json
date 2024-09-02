@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.26.0",
-    "@iconify-json/logos": "^1.1.44",
+    "@iconify-json/logos": "^1.2.0",
     "@iconify-json/mdi": "^1.1.68",
     "@nuxt/devtools": "latest",
     "@nuxt/ui": "^2.18.4",
