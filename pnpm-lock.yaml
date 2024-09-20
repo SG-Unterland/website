@@ -43,8 +43,8 @@ importers:
         specifier: ^0.2.6
         version: 0.2.6
       '@vite-pwa/nuxt':
-        specifier: ^0.9.1
-        version: 0.9.1(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.20.0)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(webpack-sources@3.2.3)(workbox-build@7.1.0)(workbox-window@7.1.0)
+        specifier: ^0.10.0
+        version: 0.10.5(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.20.0)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(webpack-sources@3.2.3)(workbox-build@7.1.0)(workbox-window@7.1.0)
       eslint:
         specifier: ^9.10.0
         version: 9.10.0(jiti@1.21.6)
@@ -2051,10 +2051,10 @@ packages:
     engines: {node: '>=16.14.0'}
     hasBin: true
 
-  '@vite-pwa/nuxt@0.9.1':
-    resolution: {integrity: sha512-04h0wpo4Pr5LbPdQ2k7FBe0tXeQ9Mg6y78bgezo5S9uXZMHav2txdzUBxI+/tbwXjFwGY7zP/rwjuLpEmcp2qg==}
+  '@vite-pwa/nuxt@0.10.5':
+    resolution: {integrity: sha512-I+qTkgQB2lvpoKQGgARgszsV/rBDys2xstczmTIgYoaNPALz2+zkhN/O8Fl8QI2ZHBL+ZnfpSOCOm/77ugrFHg==}
     peerDependencies:
-      '@vite-pwa/assets-generator': ^0.2.4
+      '@vite-pwa/assets-generator': ^0.2.6
     peerDependenciesMeta:
       '@vite-pwa/assets-generator':
         optional: true
@@ -6118,11 +6118,11 @@ packages:
       '@nuxt/kit':
         optional: true
 
-  vite-plugin-pwa@0.20.0:
-    resolution: {integrity: sha512-/kDZyqF8KqoXRpMUQtR5Atri/7BWayW8Gp7Kz/4bfstsV6zSFTxjREbXZYL7zSuRL40HGA+o2hvUAFRmC+bL7g==}
+  vite-plugin-pwa@0.20.5:
+    resolution: {integrity: sha512-aweuI/6G6n4C5Inn0vwHumElU/UEpNuO+9iZzwPZGTCH87TeZ6YFMrEY6ZUBQdIHHlhTsbMDryFARcSuOdsz9Q==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
-      '@vite-pwa/assets-generator': ^0.2.4
+      '@vite-pwa/assets-generator': ^0.2.6
       vite: ^3.1.0 || ^4.0.0 || ^5.0.0
       workbox-build: ^7.1.0
       workbox-window: ^7.1.0
@@ -9011,12 +9011,12 @@ snapshots:
       sharp-ico: 0.1.5
       unconfig: 0.3.13
 
-  '@vite-pwa/nuxt@0.9.1(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.20.0)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(webpack-sources@3.2.3)(workbox-build@7.1.0)(workbox-window@7.1.0)':
+  '@vite-pwa/nuxt@0.10.5(@vite-pwa/assets-generator@0.2.6)(magicast@0.3.5)(rollup@4.20.0)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(webpack-sources@3.2.3)(workbox-build@7.1.0)(workbox-window@7.1.0)':
     dependencies:
-      '@nuxt/kit': 3.12.4(magicast@0.3.5)(rollup@4.20.0)(webpack-sources@3.2.3)
+      '@nuxt/kit': 3.13.2(magicast@0.3.5)(rollup@4.20.0)(webpack-sources@3.2.3)
       pathe: 1.1.2
       ufo: 1.5.4
-      vite-plugin-pwa: 0.20.0(@vite-pwa/assets-generator@0.2.6)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0)
+      vite-plugin-pwa: 0.20.5(@vite-pwa/assets-generator@0.2.6)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0)
     optionalDependencies:
       '@vite-pwa/assets-generator': 0.2.6
     transitivePeerDependencies:
@@ -14028,11 +14028,11 @@ snapshots:
       - rollup
       - supports-color
 
-  vite-plugin-pwa@0.20.0(@vite-pwa/assets-generator@0.2.6)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0):
+  vite-plugin-pwa@0.20.5(@vite-pwa/assets-generator@0.2.6)(vite@5.4.6(@types/node@20.12.10)(terser@5.31.0))(workbox-build@7.1.0)(workbox-window@7.1.0):
     dependencies:
       debug: 4.3.6
-      fast-glob: 3.3.2
       pretty-bytes: 6.1.1
+      tinyglobby: 0.2.6
       vite: 5.4.6(@types/node@20.12.10)(terser@5.31.0)
       workbox-build: 7.1.0
       workbox-window: 7.1.0
