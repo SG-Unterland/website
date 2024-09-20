@@ -3,6 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   extends: ['@nuxt/ui-pro'],
   modules: ['@nuxt/ui', '@nuxt/image', '@nuxtjs/i18n', '@vite-pwa/nuxt', '@nuxt/content', '@nuxthq/studio'],
+
   content: {
     api: {
       baseURL: '/api/content',
@@ -18,6 +19,7 @@ export default defineNuxtConfig({
       },
     },
   },
+
   i18n: {
     lazy: true,
     defaultLocale: 'de',
@@ -29,14 +31,17 @@ export default defineNuxtConfig({
     ],
     vueI18n: './i18n.config.ts',
   },
+
   ui: {
     icons: ['heroicons', 'mdi', 'logos'],
   },
+
   runtimeConfig: {
     public: {
       studioTokens: '',
     },
   },
+
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
@@ -83,4 +88,6 @@ export default defineNuxtConfig({
       type: 'module',
     },
   },
+
+  compatibilityDate: '2024-09-20',
 })
