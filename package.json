@@ -28,7 +28,7 @@
     "@nuxthq/studio": "^2.1.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.0.0",
+    "@antfu/eslint-config": "^3.7.1",
     "@iconify-json/logos": "^1.2.0",
     "@iconify-json/mdi": "^1.2.0",
     "@nuxt/devtools": "latest",
